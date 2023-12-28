@@ -1,0 +1,33 @@
+/*page style pour la section main et le menu a droite et le titre  */
+
+/*style de la section main de la page*/
+#main { display:block; width:80%;margin-left:14%;margin-top:-37px; font-family: Montserrat,sans-serif;}
+
+/* style du menu sommaire de la page*/
+#left {
+  position:fixed;
+  display:block;
+  float:left;
+  width:10%;
+  border:solid 1px ;
+  border-radius:5px;
+  padding:15px;
+  padding-top:0px;
+  height:93%;
+  background-image: linear-gradient(white,#809fff);
+}
+/*style du contenu de menu sommaire*/
+#left a {
+  text-decoration:none;
+  padding:8px;
+  margin-top:9px;
+  display:block;
+  width:90%;
+  color:black;
+}
+#left a:hover{
+background-color:#809fff; border-radius:5px;
+}
+
+/*style du titre de la page*/
+#title{ display:block; border:1px solid ; padding:13px ; text-align:center;background-color:#e6f0ff; border-radius:5px; }
