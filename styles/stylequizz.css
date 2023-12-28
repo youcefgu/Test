@@ -1,0 +1,32 @@
+
+/*style des buttons reponse*/
+button { padding:13px ; text-align:left;
+border: solid 1px ;
+border-color:grey ;
+background-color:white;
+margin-bottom:10px;
+outline:none;
+cursor: pointer;
+margin-left:10px;
+width:60%;
+}
+button:hover { background-color:#e0e0d1; }
+
+/*style de button affichage resultat et reset*/
+#resul,#reset{width:13%;text-align:center;}
+
+/*style de champ de texte d'affichage du resultat*/
+#res {
+padding:13px ; padding-left:10px ; padding-right:10px ; 
+display:inline;
+border-raduis:5px;
+margin-left:20px;
+font-size:85%;
+ }
+
+@media only screen and (max-width:780px) {
+ button {width:100%;}
+#resul,#reset{width:25%;} 
+ 
+ 
+}
